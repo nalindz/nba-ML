@@ -26,4 +26,10 @@ net = neurolab.net.newff([[1, 40000],
     [0, 10]],
     [num_nodes, 1])
 
-err = net.train(inputs, targets, show=4)
+err = net.train(inputs, targets, show=5)
+
+
+print net.sim([[
+20790,10497,2441,1388,2954,25,85,2,10,1,0
+        ]])
+
